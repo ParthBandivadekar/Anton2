@@ -1,0 +1,3 @@
+parm Chg.prmtop
+trajin 05_Relax.rst7
+trajout Eq.rst7 restart
