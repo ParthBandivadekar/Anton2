@@ -1,5 +1,6 @@
 # Anton2
 Documentation to run MD simulations on Anton2
+login: name@anton2.psc.edu
 
 <b> #Converting files from Amber to Anton </b>
 1. Prepare and run minimization, heating and relaxation steps for your system of interest. This guide will use Chignolin as an example protein.
