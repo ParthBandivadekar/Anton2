@@ -25,5 +25,6 @@ login: name@anton2.psc.edu
 
 <b> Starting the simulation </b>
 1. Following the guide on making the correct DMS file we are following [this guide](https://wiki.psc.edu/twiki/view/Anton/a2docs/proj/desres/doc/build/html/walkthrough.html#assumptions)
-2. We use 
+2. We use [base.ark](https://github.com/ParthBandivadekar/Anton2/blob/48eddec211454fdb06920cccace2ac9ece4f739e/base.ark) to set up the simulation parameters.
+3. The default settings are set for a NPT simulation with 2400 picoseconds of simulation time. 
 
