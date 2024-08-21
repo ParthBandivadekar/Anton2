@@ -18,12 +18,12 @@ login: name@anton2.psc.edu
 
 <b> #Setting up the forcefields and dms file </b>
 1. viparr --help will give you all the information related to the forcefields present in viparr
-2. ```viparr -s water -f water.opc system.dms system.opc.dms``` will add the water model you have selected
-3. ```viparr-build-constraints system.opc.dms -o system.final.dms``` will constrain the hydrogens
+2. ```viparr -f aa.amber.ff19SB -f water.opc system.dms system.ff.dms``` will add the forcefield and water model you have selected
+3. ```viparr-build-constraints system.ff.dms -o system.final.dms``` will constrain the hydrogens
 4. ```dms-validate system.final.dms``` will make sure everything was done correctly
 5. ```dms-info system.final.dms``` to confirm the structure, bonds, ff and topology
 
-<b> #Randomizing velocities for multiple simulations </b>
-1. dms-thermalize
-2. 
+<b> Starting the simulation </b>
+1. Following the guide on making the correct DMS file we are following [this guide](https://wiki.psc.edu/twiki/view/Anton/a2docs/proj/desres/doc/build/html/walkthrough.html#assumptions)
+2. We use 
 
